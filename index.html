@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet">
+  <!--<script type="text/javascript" src="index.js"></script>-->
+
+
+</head>
+
+<div id="text" style="display: flex; align-items: center; justify-content: center"><strong><p>hamzas.ca</p></strong></div>
+
+<!-- <style>
+#text{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: left 1s, top 1s;
+}
+</style> -->
+        <style>
+            * {margin:0; padding: 0; color:red;}
+        </style>
+
+    <body>
+        <canvas id="hamza"></canvas>
+        <script src="index.js"></script>
+
+        <!-- <div style="position: relative; height: 30vh">
+          <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            
+          </p>
+        
+        </div> -->
+        <!-- <div style="position: relative; height: -40vh;"> -->
+          <p style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <strong>Always Learning, Creating & Building</strong>
+            <br>
+            <strong>Software Engineer 
+            <br>
+            <strong>Github:</strong> <a href="https://github.com/HamzaFarhat?tab=repositories"> Hamza</a>
+            <br>
+            <strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/hamza-farhat-ali/"> Hamza </a>
+            <br>
+            <strong>Building:</strong> <a href="https://www.offtech.io"> offtech.io </a>
+          </p>
+        <!-- </div> -->
+    </body>
+<!-- <script>
+    var text = document.getElementById("text");
+    var screenWidth = document.body.clientWidth;
+    var screenHeight = document.body.clientHeight;
+    var centerX = screenWidth / 2;
+    var centerY = screenHeight / 2;
+    var radius = (screenWidth + screenHeight) / 2; 
+    var angle = 0;
+    var speed = 0.05;
+    var dx = speed;
+    var dy = speed;
+
+    function moveText() {
+        var posX = centerX + radius * Math.cos(angle);
+        var posY = centerY + radius * Math.sin(angle);
+        text.style.left = posX + 'px';
+        text.style.top = posY + 'px';
+        angle += speed;
+
+        if(posX + text.clientWidth > screenWidth || posX < 0) {
+            dx = -dx;
+        }
+        if(posY + text.clientHeight > screenHeight || posY < 0) {
+            dy = -dy;
+        }
+        centerX += dx;
+        centerY += dy;
+    }
+    var intervalId = setInterval(moveText, 50);
+    setTimeout(function(){clearInterval(intervalId);},20000);
+</script> -->
+
+
+
+<!DOCTYPE html>
